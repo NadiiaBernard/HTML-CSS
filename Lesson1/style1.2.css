@@ -1,0 +1,10 @@
+p{
+    color: forestgreen;
+    font-size: 32px;
+}
+h2, h3{
+    color: cornflowerblue;
+}
+body{
+    background-color: rgba(127, 230, 90, 0.8);
+}
