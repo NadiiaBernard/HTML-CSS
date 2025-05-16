@@ -1,0 +1,34 @@
+body {
+    background-color: #8b58da;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    width: 80%;
+    background-color: #ccbae4;
+    padding: 15px;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 270px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+span {
+    background-color: rgba(127, 205, 253, 0.87);
+    font-size: 20px;
+    margin: 30px 70px;
+}
+
+h1, h3, p {
+    margin: 30px 70px;
+}
