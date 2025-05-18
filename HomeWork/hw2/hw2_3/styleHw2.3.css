@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4f6e51;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px 0;
+}
+
+.month {
+    width: 150px;
+    height: 150px;
+    background-color: #d1e2c8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.month p {
+    font-size: 15px;
+}
+
+.month:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
