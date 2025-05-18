@@ -1,0 +1,41 @@
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.font {
+    width: 250px;
+    height: 250px;
+    background-color: #fde2c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+
+}
+
+.sedgwick-ave-display-regular {
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+
+}
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+}
+
+.font p{
+    font-size: 25px;
+}
