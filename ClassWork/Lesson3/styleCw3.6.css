@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+#section-home{
+    background-color: #f568ff;
+}
+#section-about{
+    background-color: lightskyblue;
+}
+#section-info{
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ nav ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+     padding: 40px 0;
+ }
+
+ nav ul a{
+     color: #2d3bd1;
+ }

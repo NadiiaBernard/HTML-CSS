@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-family: Georgia B, sans-serif, sans-serif;
+}
+section p{
+    width: 80%;
+}
+.top-sect{
+background-color: #fdc0ca;
+}
+.bottom-sect{
+background-color: #272727;
+    color: white;
+}
