@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.square{
+    /*width: 1523px;*/
+    height: 83px;
+    /*border-radius: 50px;*/
+    border: 10px solid #FF09B5;
+    background: #3ADC19;
+    box-shadow: 0 4px 4px 0 rgba(59, 229, 104, 0.71);
+    /*margin: 423px auto 0 auto;*/
+}
