@@ -1,0 +1,29 @@
+/*
+1000b - inline
+100b - id
+10b - class
+1b - tag
+ */
+body p.lorem {
+    color: #7235cf;
+}
+
+p.text {
+    color: cornflowerblue;
+}
+
+p {
+    color: coral;
+}
+
+section p.lorem {
+    color: cyan;
+}
+
+section div p.text {
+    color: #0cee0c;
+}
+
+section div.box p.text {
+    color: #ee0c8c;
+}

@@ -1,0 +1,15 @@
+h1 ~ p {
+    color: #7235cf;
+}
+
+div p {
+    color: #349a1d;
+}
+
+div > p > span {
+    color: #0de4d3;
+}
+
+div > div > p {
+    color: #ba0d0d;
+}
