@@ -1,0 +1,33 @@
+/*div :first-child{*/
+/*    color: coral;*/
+/*}*/
+
+/*div p::first-letter{*/
+/*    color: #7235cf;*/
+/*    font-size: 20px;*/
+/*}*/
+/*div p::first-line{*/
+/*    color: #3ADC19;*/
+/*}*/
+
+
+div :last-child {
+    color: #3F5EFB;
+}
+
+div p:last-of-type {
+    color: darkorange;
+}
+
+ul li:nth-child(even) {
+    color: cyan;
+}
+
+ul li:nth-child(2n+4) {
+    font-size: 20px;
+}
+
+ul li:nth-last-child(4n+1) {
+    font-family: "Berlin Sans FB", sans-serif;
+    color: #ff00ea;
+}
