@@ -1,0 +1,41 @@
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+form sup {
+    color: red;
+}
+
+input {
+    /*width: 150px;*/
+}
+
+textarea {
+    /*resize: none;*/
+    width: 300px;
+}
+
+.form-registration {
+    border: 3px solid lightgreen;
+    width: 70%;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+input[type='text'] {
+    background-color: #a7ede8;
+    border: 3px solid green;
+    border-radius: 5px;
+    color: #2d3bd1;
+    font-family: sans-serif;
+}
+
+input[type='text']::placeholder {
+    color: #7235cf;
+    background-color: #0ceeaa;
+}
+
+input[type='text']:focus {
+    outline: 2px solid orange;
+}

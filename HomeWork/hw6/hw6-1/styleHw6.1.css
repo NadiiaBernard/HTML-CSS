@@ -1,0 +1,20 @@
+div.book-1 > ul > li:nth-child(even) {
+    color: deeppink;
+}
+
+div.book-2 > ul > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+div.book-3 > ul > li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+div.book-4 > ul > li:last-of-type {
+    color: rebeccapurple;
+}
+
+div.book-5 > ul > li:first-letter {
+    color: red;
+    font-size: 30px;
+}

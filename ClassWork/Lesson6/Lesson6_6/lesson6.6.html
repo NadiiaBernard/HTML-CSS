@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="styleCw6.6.css">
+</head>
+<body>
+<form class="form-registration">
+    <label for="name"> Введіть своє ім'я </label>
+    <input type="text" name="name" id="name" placeholder="Nadiia" required> <sup>*</sup>
+
+    <label for="email"> Введіть свій email </label>
+    <input type="email" name="email" id="email" placeholder="nadiia@gmail.com" required> <sup>*</sup>
+
+    <label for="password"> Введіть свій пароль</label>
+    <input type="password" name="password" id="password" placeholder="asdfg" required> <sup>*</sup>
+
+    <label for="age"> Введіть свій вік </label>
+    <input type="number" name="age" id="age" placeholder="25" min="18" max="100">
+
+    <label for="color"> Введіть улюблений колір </label>
+    <input type="color" name="color" id="color">
+
+    <input type="file">
+    <input type="date">
+    <input type="time">
+
+    <label> Стать</label>
+    <label><input type="radio" name="gender" value="male"> Чоловік </label>
+    <label><input type="radio" name="gender" value="female"> Жінка </label>
+
+    <label>
+        <input type="checkbox" name="newsLetter"> Підписатись на новини
+    </label>
+
+    <label for="lorem">Країна</label>
+    <select name="" id="lorem">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Ukraine</option>
+        <option value="usa">USA</option>
+        <option value="ca">Canada</option>
+    </select>
+
+    <label for="phone">
+        <select name="phone" id="phone">
+            <optgroup label="Apple">
+                <option value="x">iPhone X</option>
+                <option value="xr">iPhone XR</option>
+                <option value="xs">iPhone XS</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option value="A">Samsung A13</option>
+                <option value="M">Samsung 10</option>
+                <option value="S">Samsung STab</option>
+            </optgroup>
+        </select>
+    </label>
+
+    <label for="comment">Які Ваші улюблені цитати?</label>
+    <textarea name="" id="comment" cols="30" rows="4">
+        </textarea>
+
+    <div>
+        <input type="submit" value="Відправити інформацію">
+        <input type="reset">
+    </div>
+
+</form>
+</body>
+</html>
