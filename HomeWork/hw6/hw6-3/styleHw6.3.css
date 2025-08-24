@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    width: 360px;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 35px;
+    font-family: "Arial", sans-serif;
+
+}
+
+.login input {
+    width: 100%;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid grey;
+
+}
+
+.login input[type='submit'] {
+    background-color: #68b4f8;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.login p {
+    margin: 10px;
+}
+
+p a {
+    color: #375184;
+}
+
+div.login > div > p:nth-child(1) {
+    text-transform: uppercase;
+}
+
+div.login > div > p:nth-child(2) {
+    font-size: 20px;
+}
+
+div.login > div > p:nth-child(2)::before {
+    content: "";
+    background-image: url("fb.png");
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+div.login > div > p:nth-child(3) {
+    font-size: 16px;
+}
+
+.registration {
+    width: 360px;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+}
