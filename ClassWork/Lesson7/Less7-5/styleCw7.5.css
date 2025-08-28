@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #5454D4;
+    position: relative;
+}
+
+.sale {
+    width: 70px;
+    height: 45px;
+    background-color: orange;
+    position: absolute;
+    top: -20px;
+    left: -25px;
+}
