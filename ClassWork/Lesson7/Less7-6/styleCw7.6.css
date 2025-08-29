@@ -14,7 +14,7 @@ body {
 h2 {
     color: #142823;
     text-align: center;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -52,7 +52,7 @@ h2 {
 .title-card {
     color: #282828;
     text-align: center;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -61,7 +61,7 @@ h2 {
 
 .blue-price {
     color: #106FDF;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -70,7 +70,7 @@ h2 {
 
 .red-price {
     color: #DD152D;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
