@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+
+}
+body{
+    font-size: 20px;
+}
+header, footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #7235cf;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+}
+
+main {
+    height: 60vh;
+    width: 70%;
+    background-color: #3F5EFB;
+}
+
+aside {
+    height: 60vh;
+    width: 30%;
+    background-color: rgba(127, 230, 90, 0.8);
+}
+
+section {
+    display: none;
+}
+
+header p::after {
+    content: "desktop";
+}
+
+main, aside, footer{
+    font-size: 1.3em;
+}
