@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -6,11 +6,11 @@
     gap: 30px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #2fff00;
 }
 
-.grid-wrapper{
+.grid-wrapper {
     height: 90vh;
     display: grid;
     border: 1px solid;
